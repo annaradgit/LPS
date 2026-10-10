@@ -1,0 +1,1 @@
+import argon2 from 'argon2';import {pool,q} from './pool.js';const h=await argon2.hash('CHANGE_THIS_BEFORE_PRODUCTION');await q("insert into users(name,email,phone,password_hash,role) values($1,$2,$3,$4,'ADMIN') on conflict(email) do nothing",['LPS Admin','admin@lps.co.uk','+440000000000',h]);await pool.end();

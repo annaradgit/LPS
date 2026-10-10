@@ -1,0 +1,37 @@
+{
+  "name": "LPSMobile",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "latest",
+    "@react-navigation/native": "latest",
+    "@react-navigation/native-stack": "latest",
+    "react": "latest",
+    "react-native": "latest",
+    "react-native-gesture-handler": "latest",
+    "react-native-safe-area-context": "latest",
+    "react-native-screens": "latest",
+    "react-native-svg": "latest"
+  },
+  "devDependencies": {
+    "@react-native-community/cli": "latest",
+    "@react-native-community/cli-platform-android": "latest",
+    "@react-native-community/cli-platform-ios": "latest",
+    "@react-native/eslint-config": "latest",
+    "@react-native/metro-config": "latest",
+    "@react-native/typescript-config": "latest",
+    "@types/jest": "^30.0.0",
+    "@types/react": "latest",
+    "@types/react-native": "latest",
+    "typescript": "latest"
+  },
+  "engines": {
+    "node": "latest"
+  }
+}

@@ -1,0 +1,1 @@
+import pg from 'pg'; import {env} from '../config.js'; export const pool=new pg.Pool({connectionString:env.DATABASE_URL,max:20,ssl:env.NODE_ENV==='production'?{rejectUnauthorized:true}:undefined}); export const q=(sql:string,p:any[]=[])=>pool.query(sql,p);

@@ -1,0 +1,6 @@
+C:\LPS\mobile\android\app\.cxx\Debug\1p5t4o1b\arm64-v8a\AsyncStorageSpec_autolinked_build\CMakeFiles\react_codegen_AsyncStorageSpec.dir\AsyncStorageSpec-generated.cpp.o
+C:\LPS\mobile\android\app\.cxx\Debug\1p5t4o1b\arm64-v8a\AsyncStorageSpec_autolinked_build\CMakeFiles\react_codegen_AsyncStorageSpec.dir\react\renderer\components\AsyncStorageSpec\ComponentDescriptors.cpp.o
+C:\LPS\mobile\android\app\.cxx\Debug\1p5t4o1b\arm64-v8a\AsyncStorageSpec_autolinked_build\CMakeFiles\react_codegen_AsyncStorageSpec.dir\react\renderer\components\AsyncStorageSpec\EventEmitters.cpp.o
+C:\LPS\mobile\android\app\.cxx\Debug\1p5t4o1b\arm64-v8a\AsyncStorageSpec_autolinked_build\CMakeFiles\react_codegen_AsyncStorageSpec.dir\react\renderer\components\AsyncStorageSpec\Props.cpp.o
+C:\LPS\mobile\android\app\.cxx\Debug\1p5t4o1b\arm64-v8a\AsyncStorageSpec_autolinked_build\CMakeFiles\react_codegen_AsyncStorageSpec.dir\react\renderer\components\AsyncStorageSpec\ShadowNodes.cpp.o
+C:\LPS\mobile\android\app\.cxx\Debug\1p5t4o1b\arm64-v8a\AsyncStorageSpec_autolinked_build\CMakeFiles\react_codegen_AsyncStorageSpec.dir\react\renderer\components\AsyncStorageSpec\States.cpp.o

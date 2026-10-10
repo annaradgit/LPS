@@ -1,0 +1,4 @@
+C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/arm64-v8a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/arm64-v8a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/arm64-v8a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/arm64-v8a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir
