@@ -1,1 +1,1 @@
-export const API_URL = 'https://lps-production-319e.up.railway.app';
+export const API_URL = 'https://lps-production-319e.up.railway.app/api';

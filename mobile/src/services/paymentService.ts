@@ -8,17 +8,21 @@ export type PaymentResult = {
  * Demo payment adapter.
  * Production: create a PaymentIntent on your server and use Stripe PaymentSheet.
  */
-export async function payInvoice(
-  ticketId: string,
-  amount: number,
-): Promise<PaymentResult> {
-  await new Promise(resolve => setTimeout(resolve, 900));
-  return {
-    success: true,
-    paymentId: `demo_${ticketId}_${Math.round(amount * 100)}`,
-    message: 'Payment successful',
-  };
-}
+// export async function payInvoice(
+//   ticketId: string,
+//   amount: number,
+// ): Promise<PaymentResult> {
+//   await new Promise(resolve => setTimeout(resolve, 900));
+//   return {
+//     success: true,
+//     paymentId: `demo_${ticketId}_${Math.round(amount * 100)}`,
+//     message: 'Payment successful',
+//   };
+// }
+
+
+
+
 
 // import { initPaymentSheet, presentPaymentSheet } from '@stripe/stripe-react-native';
 
@@ -98,3 +102,33 @@ export async function payInvoice(
 //     };
 //   }
 // }
+
+
+
+
+
+
+
+import { API_URL } from '../config/api';
+import { initPaymentSheet, presentPaymentSheet } from '@stripe/stripe-react-native';
+
+export async function payInvoice(ticketId: string, amount: number) {
+  try {
+    // ارسال درخواست به روت پرداخت بک‌اند در ریلوای
+    const response = await fetch(`${API_URL}/payments/create-intent`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        ticketId,
+        amount: Math.round(amount * 100), // تبدیل به سنت/پنس برای استرایپ
+      }),
+    });
+
+    const { paymentIntentSecret } = await response.json();
+
+    // باقی کدهای مربوط به presentPaymentSheet استرایپ...
+    
+  } catch (error) {
+    console.error(error);
+  }
+}

@@ -1,55 +1,60 @@
-import AsyncStorage from '@react-native-async-storage/async-storage';
+// import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const KEY = '@lps_demo_state';
+// const KEY = '@lps_demo_state';
 
-export type DemoState = {
-  user: any | null;
-  tickets: any[];
-};
+// export type DemoState = {
+//   user: any | null;
+//   tickets: any[];
+// };
 
-const initial: DemoState = {
-  user: null,
-  tickets: [
-    {
-      id: 'T-1001',
-      propertyId: 'P-1',
-      title: 'Leaking kitchen tap',
-      description: 'The kitchen tap is leaking from the base.',
-      priority: 'Medium',
-      status: 'open',
-      createdAt: new Date().toISOString(),
-    },
-    {
-      id: 'T-1002',
-      propertyId: 'P-1',
-      title: 'Boiler pressure issue',
-      description: 'Boiler pressure drops every two days.',
-      priority: 'High',
-      status: 'quoted',
-      createdAt: new Date().toISOString(),
-      quote: 85,
-      invoiceNote: 'Call-out and repair estimate.',
-    },
-  ],
-};
+// const initial: DemoState = {
+//   user: null,
+//   tickets: [
+//     {
+//       id: 'T-1001',
+//       propertyId: 'P-1',
+//       title: 'Leaking kitchen tap',
+//       description: 'The kitchen tap is leaking from the base.',
+//       priority: 'Medium',
+//       status: 'open',
+//       createdAt: new Date().toISOString(),
+//     },
+//     {
+//       id: 'T-1002',
+//       propertyId: 'P-1',
+//       title: 'Boiler pressure issue',
+//       description: 'Boiler pressure drops every two days.',
+//       priority: 'High',
+//       status: 'quoted',
+//       createdAt: new Date().toISOString(),
+//       quote: 85,
+//       invoiceNote: 'Call-out and repair estimate.',
+//     },
+//   ],
+// };
 
-export async function loadState(): Promise<DemoState> {
-  const raw = await AsyncStorage.getItem(KEY);
-  if (!raw) return initial;
-  try {
-    return JSON.parse(raw);
-  } catch {
-    return initial;
-  }
-}
+// export async function loadState(): Promise<DemoState> {
+//   const raw = await AsyncStorage.getItem(KEY);
+//   if (!raw) return initial;
+//   try {
+//     return JSON.parse(raw);
+//   } catch {
+//     return initial;
+//   }
+// }
 
-export async function saveState(state: DemoState) {
-  await AsyncStorage.setItem(KEY, JSON.stringify(state));
-}
+// export async function saveState(state: DemoState) {
+//   await AsyncStorage.setItem(KEY, JSON.stringify(state));
+// }
 
-export async function clearState() {
-  await AsyncStorage.removeItem(KEY);
-}
+// export async function clearState() {
+//   await AsyncStorage.removeItem(KEY);
+// }
+
+
+
+
+
 
 
 // // Define your API base URL (Change this to your actual production or staging endpoint)
@@ -132,3 +137,47 @@ export async function clearState() {
 //     throw error;
 //   }
 // }
+
+
+import { API_URL } from '../config/api';
+
+export type DemoState = {
+  user: any | null;
+  tickets: any[];
+};
+
+const initial: DemoState = {
+  user: null,
+  tickets: [],
+};
+
+export async function loadState(): Promise<DemoState> {
+  try {
+    const response = await fetch(`${API_URL}/state`);
+    if (!response.ok) throw new Error('Network error');
+    return await response.json();
+  } catch (error) {
+    console.error('Failed to load real data:', error);
+    return initial;
+  }
+}
+
+export async function saveState(state: DemoState): Promise<void> {
+  try {
+    await fetch(`${API_URL}/state`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(state),
+    });
+  } catch (error) {
+    console.error('Failed to save data to server:', error);
+  }
+}
+
+export async function clearState(): Promise<void> {
+  try {
+    await fetch(`${API_URL}/state`, { method: 'DELETE' });
+  } catch (error) {
+    console.error('Failed to clear server state:', error);
+  }
+}
