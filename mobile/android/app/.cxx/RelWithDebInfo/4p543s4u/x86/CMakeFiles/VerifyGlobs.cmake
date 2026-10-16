@@ -36,6 +36,30 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/x86/CMakeFiles/cmake.verify_globs")
 endif()
 
+# react_codegen_SRCS at C:/LPS/mobile/node_modules/@stripe/stripe-react-native/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/LPS/mobile/node_modules/@stripe/stripe-react-native/android/build/generated/source/codegen/jni/*.cpp")
+set(OLD_GLOB
+  "C:/LPS/mobile/node_modules/@stripe/stripe-react-native/android/build/generated/source/codegen/jni/rnstripe-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/x86/CMakeFiles/cmake.verify_globs")
+endif()
+
+# react_codegen_SRCS at C:/LPS/mobile/node_modules/@stripe/stripe-react-native/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/LPS/mobile/node_modules/@stripe/stripe-react-native/android/build/generated/source/codegen/jni/react/renderer/components/rnstripe/*.cpp")
+set(OLD_GLOB
+  "C:/LPS/mobile/node_modules/@stripe/stripe-react-native/android/build/generated/source/codegen/jni/react/renderer/components/rnstripe/ComponentDescriptors.cpp"
+  "C:/LPS/mobile/node_modules/@stripe/stripe-react-native/android/build/generated/source/codegen/jni/react/renderer/components/rnstripe/EventEmitters.cpp"
+  "C:/LPS/mobile/node_modules/@stripe/stripe-react-native/android/build/generated/source/codegen/jni/react/renderer/components/rnstripe/Props.cpp"
+  "C:/LPS/mobile/node_modules/@stripe/stripe-react-native/android/build/generated/source/codegen/jni/react/renderer/components/rnstripe/ShadowNodes.cpp"
+  "C:/LPS/mobile/node_modules/@stripe/stripe-react-native/android/build/generated/source/codegen/jni/react/renderer/components/rnstripe/States.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/x86/CMakeFiles/cmake.verify_globs")
+endif()
+
 # LIB_CUSTOM_SRCS at C:/LPS/mobile/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt:12 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/LPS/mobile/node_modules/react-native-safe-area-context/android/src/main/jni/*.cpp")
 set(OLD_GLOB

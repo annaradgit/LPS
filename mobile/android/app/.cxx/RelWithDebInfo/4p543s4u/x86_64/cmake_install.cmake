@@ -45,6 +45,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/x86_64/AsyncStorageSpec_autolinked_build/cmake_install.cmake")
+  include("C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/x86_64/rnstripe_autolinked_build/cmake_install.cmake")
   include("C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/x86_64/rngesturehandler_codegen_autolinked_build/cmake_install.cmake")
   include("C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/x86_64/safeareacontext_autolinked_build/cmake_install.cmake")
   include("C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/x86_64/rnscreens_autolinked_build/cmake_install.cmake")

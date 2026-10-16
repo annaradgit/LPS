@@ -50,3 +50,85 @@ export async function saveState(state: DemoState) {
 export async function clearState() {
   await AsyncStorage.removeItem(KEY);
 }
+
+
+// // Define your API base URL (Change this to your actual production or staging endpoint)
+// const API_BASE_URL = 'https://lps-production-319e.up.railway.app';
+
+// export type DemoState = {
+//   user: any | null;
+//   tickets: any[];
+// };
+
+// // Fallback initial state in case the API call completely fails
+// const initial: DemoState = {
+//   user: null,
+//   tickets: [],
+// };
+
+// /**
+//  * Fetches the live application state from the backend database.
+//  */
+// export async function loadState(): Promise<DemoState> {
+//   try {
+//     const response = await fetch(`${API_BASE_URL}/state`, {
+//       method: 'GET',
+//       headers: {
+//         'Accept': 'application/json',
+//         'Content-Type': 'application/json',
+//         // 'Authorization': `Bearer ${token}` // Add auth tokens if needed
+//       },
+//     });
+
+//     if (!response.ok) {
+//       throw new Error(`Server returned status: ${response.status}`);
+//     }
+
+//     const data = await response.json();
+//     return data;
+//   } catch (error) {
+//     console.error('Failed to load real-world state from API:', error);
+//     // Fall back to initial empty arrays so the UI doesn't crash
+//     return initial; 
+//   }
+// }
+
+// /**
+//  * Persists the entire state back to the remote server database.
+//  */
+// export async function saveState(state: DemoState): Promise<void> {
+//   try {
+//     const response = await fetch(`${API_BASE_URL}/state`, {
+//       method: 'PUT', // Using PUT assuming this updates a complete record
+//       headers: {
+//         'Content-Type': 'application/json',
+//       },
+//       body: JSON.stringify(state),
+//     });
+
+//     if (!response.ok) {
+//       throw new Error(`Failed to save state. Server responded with: ${response.status}`);
+//     }
+//   } catch (error) {
+//     console.error('Failed to sync state to server:', error);
+//     throw error; // Re-throw if you want your UI components to show an error banner
+//   }
+// }
+
+// /**
+//  * Resets or clears user data from the session database.
+//  */
+// export async function clearState(): Promise<void> {
+//   try {
+//     const response = await fetch(`${API_BASE_URL}/state`, {
+//       method: 'DELETE',
+//     });
+
+//     if (!response.ok) {
+//       throw new Error(`Failed to clear server state: ${response.status}`);
+//     }
+//   } catch (error) {
+//     console.error('Failed to execute clearState on API:', error);
+//     throw error;
+//   }
+// }

@@ -4,6 +4,9 @@ C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/armeabi-v7a/CMakeFiles/re
 C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/armeabi-v7a/AsyncStorageSpec_autolinked_build/CMakeFiles/react_codegen_AsyncStorageSpec.dir
 C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/armeabi-v7a/AsyncStorageSpec_autolinked_build/CMakeFiles/edit_cache.dir
 C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/armeabi-v7a/AsyncStorageSpec_autolinked_build/CMakeFiles/rebuild_cache.dir
+C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/armeabi-v7a/rnstripe_autolinked_build/CMakeFiles/react_codegen_rnstripe.dir
+C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/armeabi-v7a/rnstripe_autolinked_build/CMakeFiles/edit_cache.dir
+C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/armeabi-v7a/rnstripe_autolinked_build/CMakeFiles/rebuild_cache.dir
 C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/armeabi-v7a/rngesturehandler_codegen_autolinked_build/CMakeFiles/react_codegen_rngesturehandler_codegen.dir
 C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/armeabi-v7a/rngesturehandler_codegen_autolinked_build/CMakeFiles/edit_cache.dir
 C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/armeabi-v7a/rngesturehandler_codegen_autolinked_build/CMakeFiles/rebuild_cache.dir
