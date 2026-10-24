@@ -1,6 +1,7 @@
 {
   "buildFiles": [
     "C:\\LPS\\mobile\\node_modules\\@react-native-async-storage\\async-storage\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "C:\\LPS\\mobile\\node_modules\\@stripe\\stripe-react-native\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
     "C:\\LPS\\mobile\\node_modules\\react-native-gesture-handler\\android\\CMakeLists.txt",
     "C:\\LPS\\mobile\\node_modules\\react-native-safe-area-context\\android\\src\\main\\jni\\CMakeLists.txt",
     "C:\\LPS\\mobile\\node_modules\\react-native-screens\\android\\src\\main\\jni\\CMakeLists.txt",
@@ -78,6 +79,11 @@
     },
     "react_codegen_AsyncStorageSpec::@15af80695a6281ecf900": {
       "artifactName": "react_codegen_AsyncStorageSpec",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "react_codegen_rnstripe::@65863f00eb0279fa1385": {
+      "artifactName": "react_codegen_rnstripe",
       "abi": "x86_64",
       "runtimeFiles": []
     }

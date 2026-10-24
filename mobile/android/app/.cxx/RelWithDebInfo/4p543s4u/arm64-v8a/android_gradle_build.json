@@ -1,6 +1,7 @@
 {
   "buildFiles": [
     "C:\\LPS\\mobile\\node_modules\\@react-native-async-storage\\async-storage\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "C:\\LPS\\mobile\\node_modules\\@stripe\\stripe-react-native\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
     "C:\\LPS\\mobile\\node_modules\\react-native-gesture-handler\\android\\CMakeLists.txt",
     "C:\\LPS\\mobile\\node_modules\\react-native-safe-area-context\\android\\src\\main\\jni\\CMakeLists.txt",
     "C:\\LPS\\mobile\\node_modules\\react-native-screens\\android\\src\\main\\jni\\CMakeLists.txt",
@@ -63,6 +64,11 @@
         "C:\\Users\\Admin\\.gradle\\caches\\9.4.1\\transforms\\83daf106ead88e7e3c5ea19248e78529\\transformed\\react-android-0.87.1-release\\prefab\\modules\\jsi\\libs\\android.arm64-v8a\\libjsi.so",
         "C:\\Users\\Admin\\.gradle\\caches\\9.4.1\\transforms\\3cb1792e16d0777e9535521c99f0b7b5\\transformed\\fbjni-0.7.0\\prefab\\modules\\fbjni\\libs\\android.arm64-v8a\\libfbjni.so"
       ]
+    },
+    "react_codegen_rnstripe::@65863f00eb0279fa1385": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "react_codegen_rnstripe"
     },
     "react_codegen_rnsvg::@4f40eb209d0c0b4a3b65": {
       "toolchain": "toolchain",

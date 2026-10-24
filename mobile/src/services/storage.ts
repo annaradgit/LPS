@@ -1,4 +1,4 @@
-// import AsyncStorage from '@react-native-async-storage/async-storage';
+//1111111 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // const KEY = '@lps_demo_state';
 
@@ -57,7 +57,7 @@
 
 
 
-// // Define your API base URL (Change this to your actual production or staging endpoint)
+// //222222222 Define your API base URL (Change this to your actual production or staging endpoint)
 // const API_BASE_URL = 'https://lps-production-319e.up.railway.app';
 
 // export type DemoState = {
@@ -139,45 +139,50 @@
 // }
 
 
-import { API_URL } from '../config/api';
+// 3333333 import { API_URL } from '../config/api';
 
-export type DemoState = {
-  user: any | null;
-  tickets: any[];
-};
+// export type DemoState = {
+//   user: any | null;
+//   tickets: any[];
+// };
 
-const initial: DemoState = {
-  user: null,
-  tickets: [],
-};
+// const initial: DemoState = {
+//   user: null,
+//   tickets: [],
+// };
 
-export async function loadState(): Promise<DemoState> {
-  try {
-    const response = await fetch(`${API_URL}/state`);
-    if (!response.ok) throw new Error('Network error');
-    return await response.json();
-  } catch (error) {
-    console.error('Failed to load real data:', error);
-    return initial;
-  }
-}
+// export async function loadState(): Promise<DemoState> {
+//   try {
+//     const response = await fetch(`${API_URL}/state`);
+//     if (!response.ok) throw new Error('Network error');
+//     return await response.json();
+//   } catch (error) {
+//     console.error('Failed to load real data:', error);
+//     return initial;
+//   }
+// }
 
-export async function saveState(state: DemoState): Promise<void> {
-  try {
-    await fetch(`${API_URL}/state`, {
-      method: 'PUT',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(state),
-    });
-  } catch (error) {
-    console.error('Failed to save data to server:', error);
-  }
-}
+// export async function saveState(state: DemoState): Promise<void> {
+//   try {
+//     await fetch(`${API_URL}/state`, {
+//       method: 'PUT',
+//       headers: { 'Content-Type': 'application/json' },
+//       body: JSON.stringify(state),
+//     });
+//   } catch (error) {
+//     console.error('Failed to save data to server:', error);
+//   }
+// }
 
-export async function clearState(): Promise<void> {
-  try {
-    await fetch(`${API_URL}/state`, { method: 'DELETE' });
-  } catch (error) {
-    console.error('Failed to clear server state:', error);
-  }
-}
+// export async function clearState(): Promise<void> {
+//   try {
+//     await fetch(`${API_URL}/state`, { method: 'DELETE' });
+//   } catch (error) {
+//     console.error('Failed to clear server state:', error);
+//   }
+// }
+
+
+
+// Legacy demo-state storage was removed.
+// The app now uses src/services/api.ts to read/write data through the authenticated LPS API.

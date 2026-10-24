@@ -1,6 +1,6 @@
 # ninja log v5
 85802	115362	8117813884079973	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/e834811c9f018c48cc6364fa9a79d65c/common/cpp/react/renderer/components/rnscreens/RNSScreenStackHeaderSubviewState.cpp.o	dd8784b5f0ea3c2f
-15	192	0	C:/LPS/mobile/android/app/.cxx/Debug/1p5t4o1b/armeabi-v7a/CMakeFiles/cmake.verify_globs	bd2c2ba2940f6945
+63	372	0	C:/LPS/mobile/android/app/.cxx/Debug/1p5t4o1b/armeabi-v7a/CMakeFiles/cmake.verify_globs	bd2c2ba2940f6945
 149	16592	8117812896566357	AsyncStorageSpec_autolinked_build/CMakeFiles/react_codegen_AsyncStorageSpec.dir/react/renderer/components/AsyncStorageSpec/States.cpp.o	e849f2ea73606e13
 52	17885	8117812909129480	AsyncStorageSpec_autolinked_build/CMakeFiles/react_codegen_AsyncStorageSpec.dir/react/renderer/components/AsyncStorageSpec/EventEmitters.cpp.o	18da449b6de1a2a5
 171654	227195	8117815001221774	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/C_/LPS/mobile/node_modules/react-native-svg/android/build/generated/source/codegen/jni/react/renderer/components/rnsvg/Props.cpp.o	fffa489dd5205453

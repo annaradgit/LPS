@@ -314,11 +314,11 @@
 	[
 		{
 			"backtrace" : 4,
-			"id" : "react_codegen_rnstripe::@65863f00eb0279fa1385"
+			"id" : "react_codegen_AsyncStorageSpec::@15af80695a6281ecf900"
 		},
 		{
 			"backtrace" : 4,
-			"id" : "react_codegen_rngesturehandler_codegen::@39f233abcd2c728bc6ec"
+			"id" : "react_codegen_safeareacontext::@7984cd80db47aa7b952a"
 		},
 		{
 			"backtrace" : 4,
@@ -330,11 +330,11 @@
 		},
 		{
 			"backtrace" : 4,
-			"id" : "react_codegen_safeareacontext::@7984cd80db47aa7b952a"
+			"id" : "react_codegen_rnstripe::@65863f00eb0279fa1385"
 		},
 		{
 			"backtrace" : 4,
-			"id" : "react_codegen_AsyncStorageSpec::@15af80695a6281ecf900"
+			"id" : "react_codegen_rngesturehandler_codegen::@39f233abcd2c728bc6ec"
 		}
 	],
 	"id" : "appmodules::@6890427a1f51a3e7e1df",

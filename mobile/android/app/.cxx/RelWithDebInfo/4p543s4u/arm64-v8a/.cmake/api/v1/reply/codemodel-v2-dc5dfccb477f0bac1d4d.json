@@ -164,7 +164,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appmodules::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appmodules-RelWithDebInfo-83d578bbbdf5ce0a418a.json",
+					"jsonFile" : "target-appmodules-RelWithDebInfo-97fd16dc7598fa71f499.json",
 					"name" : "appmodules",
 					"projectIndex" : 0
 				},
@@ -178,14 +178,14 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "react_codegen_rngesturehandler_codegen::@39f233abcd2c728bc6ec",
-					"jsonFile" : "target-react_codegen_rngesturehandler_codegen-RelWithDebInfo-11a4df5482fb415ab23c.json",
+					"jsonFile" : "target-react_codegen_rngesturehandler_codegen-RelWithDebInfo-d79f85002a4ac834de3e.json",
 					"name" : "react_codegen_rngesturehandler_codegen",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "react_codegen_rnscreens::@25bcbd507e98d3a854ad",
-					"jsonFile" : "target-react_codegen_rnscreens-RelWithDebInfo-c4b53ab7c8352b140bb6.json",
+					"jsonFile" : "target-react_codegen_rnscreens-RelWithDebInfo-067d3fdf0939d3c1b1ef.json",
 					"name" : "react_codegen_rnscreens",
 					"projectIndex" : 0
 				},
@@ -199,14 +199,14 @@
 				{
 					"directoryIndex" : 6,
 					"id" : "react_codegen_rnsvg::@4f40eb209d0c0b4a3b65",
-					"jsonFile" : "target-react_codegen_rnsvg-RelWithDebInfo-a8a563202ee278218725.json",
+					"jsonFile" : "target-react_codegen_rnsvg-RelWithDebInfo-c9f931b9840858a76f7c.json",
 					"name" : "react_codegen_rnsvg",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "react_codegen_safeareacontext::@7984cd80db47aa7b952a",
-					"jsonFile" : "target-react_codegen_safeareacontext-RelWithDebInfo-abe218c4dd6703c91b88.json",
+					"jsonFile" : "target-react_codegen_safeareacontext-RelWithDebInfo-4e455ce76e15778c7928.json",
 					"name" : "react_codegen_safeareacontext",
 					"projectIndex" : 0
 				}
@@ -216,7 +216,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/x86_64",
+		"build" : "C:/LPS/mobile/android/app/.cxx/RelWithDebInfo/4p543s4u/arm64-v8a",
 		"source" : "C:/LPS/mobile/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup"
 	},
 	"version" : 

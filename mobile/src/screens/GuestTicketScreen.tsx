@@ -10,7 +10,7 @@ import {NativeStackScreenProps} from '@react-navigation/native-stack';
 
 import {Button, Card, Field, styles as ui} from '../components/ui';
 import {colors} from '../theme';
-import {loadState, saveState} from '../services/storage';
+import {createGuestTicket} from '../services/api';
 
 export type GuestTicketStack = {
   GuestTicket: undefined;
@@ -44,39 +44,13 @@ export default function GuestTicketScreen({navigation}: Props) {
     setSending(true);
 
     try {
-      const state = await loadState();
-
-      const ticket = {
-        id: 'G-${Date.now().toString().slice(-8)}',
-        propertyId: 'GUEST',
-        title,
-        description,
-        priority,
-        status: 'open',
-        createdAt: new Date().toISOString(),
-
-        guest: true,
-        guestName: name,
-        guestPhone: phone,
-        guestEmail: email,
-        guestAddress: address,
-        guestCity: city,
-        guestPostcode: postcode,
-      };
-
-      state.tickets.unshift(ticket);
-
-      await saveState(state);
-
+      const result = await createGuestTicket({
+        name, phone, email, address, city, postcode, title, description, priority,
+      });
       Alert.alert(
         'Request submitted',
-        'Your repair request has been submitted.\n\nReference: ${ticket.id}\n\nThe LPS team will contact you as soon as possible.',
-        [
-          {
-            text: 'Done',
-            onPress: () => navigation.goBack(),
-          },
-        ],
+        `Your repair request has been submitted.\n\nReference: ${result.reference}\n\nThe LPS team will contact you as soon as possible.`,
+        [{text: 'Done', onPress: () => navigation.goBack()}],
       );
     } catch {
       Alert.alert(

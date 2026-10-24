@@ -4,3 +4,9 @@ C:\LPS\mobile\android\app\.cxx\RelWithDebInfo\4p543s4u\arm64-v8a\AsyncStorageSpe
 C:\LPS\mobile\android\app\.cxx\RelWithDebInfo\4p543s4u\arm64-v8a\AsyncStorageSpec_autolinked_build\CMakeFiles\react_codegen_AsyncStorageSpec.dir\react\renderer\components\AsyncStorageSpec\Props.cpp.o
 C:\LPS\mobile\android\app\.cxx\RelWithDebInfo\4p543s4u\arm64-v8a\AsyncStorageSpec_autolinked_build\CMakeFiles\react_codegen_AsyncStorageSpec.dir\react\renderer\components\AsyncStorageSpec\ShadowNodes.cpp.o
 C:\LPS\mobile\android\app\.cxx\RelWithDebInfo\4p543s4u\arm64-v8a\AsyncStorageSpec_autolinked_build\CMakeFiles\react_codegen_AsyncStorageSpec.dir\react\renderer\components\AsyncStorageSpec\States.cpp.o
+C:\LPS\mobile\android\app\.cxx\RelWithDebInfo\4p543s4u\arm64-v8a\rnstripe_autolinked_build\CMakeFiles\react_codegen_rnstripe.dir\react\renderer\components\rnstripe\ComponentDescriptors.cpp.o
+C:\LPS\mobile\android\app\.cxx\RelWithDebInfo\4p543s4u\arm64-v8a\rnstripe_autolinked_build\CMakeFiles\react_codegen_rnstripe.dir\react\renderer\components\rnstripe\EventEmitters.cpp.o
+C:\LPS\mobile\android\app\.cxx\RelWithDebInfo\4p543s4u\arm64-v8a\rnstripe_autolinked_build\CMakeFiles\react_codegen_rnstripe.dir\react\renderer\components\rnstripe\Props.cpp.o
+C:\LPS\mobile\android\app\.cxx\RelWithDebInfo\4p543s4u\arm64-v8a\rnstripe_autolinked_build\CMakeFiles\react_codegen_rnstripe.dir\react\renderer\components\rnstripe\ShadowNodes.cpp.o
+C:\LPS\mobile\android\app\.cxx\RelWithDebInfo\4p543s4u\arm64-v8a\rnstripe_autolinked_build\CMakeFiles\react_codegen_rnstripe.dir\react\renderer\components\rnstripe\States.cpp.o
+C:\LPS\mobile\android\app\.cxx\RelWithDebInfo\4p543s4u\arm64-v8a\rnstripe_autolinked_build\CMakeFiles\react_codegen_rnstripe.dir\rnstripe-generated.cpp.o
