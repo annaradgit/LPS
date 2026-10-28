@@ -33,6 +33,6 @@
     "typescript": "latest"
   },
   "engines": {
-    "node": "latest"
+    "node": "^24.21.0"
   }
 }
